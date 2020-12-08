@@ -470,6 +470,7 @@ footer h3 {
 .about h2 {
   font-family: 'Hillonest Signature';
   font-size: 2.5em;
+  text-align: center;
 }
 
 .about .content-wrapper {
