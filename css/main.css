@@ -464,28 +464,31 @@ footer h3 {
    ========================================================================== */
 
 .about {
-  padding-bottom: 2em;
+  padding: 0 1em 2em 1em;
 }
 
 .about h2 {
   font-family: 'Hillonest Signature';
   font-size: 2.5em;
+  text-align: center;
+  width: 90%;
+  margin: 0.75em 0 0 0;
+}
+
+.about-image {
+  width: 90%;
+  margin: auto;
+}
+
+.about .content-wrapper img {
+  width: 100%
 }
 
 .about .content-wrapper {
   width: 95%;
 }
 
-.about-image {
-  width: 90%;
-}
-
-.mission-content img {
-  width: 100%
-}
-
-.mission-content, 
-.background-content {
+.about .half-width {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -764,21 +767,16 @@ footer h3 {
   }
 
   .about .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-flow: row nowrap;
     margin: auto;
     width: 95%;
   }
 
   .about-image {
     width: 25%;
-  }
-
-  .mission-content, 
-  .background-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    flex-flow: row nowrap;
-    width: 95%;
   }
 
   .half-width-wrapper {
@@ -796,7 +794,6 @@ footer h3 {
     margin: auto;
   }
   
-  .faq .half-width, 
   .faq .half-width {
     display: flex;
     justify-content: center;
